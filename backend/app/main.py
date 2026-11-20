@@ -5,6 +5,6 @@ app = fastapi.FastAPI()
 
 @app.get('/health')
 def health():
-    return  {
+    return {
         'status': 'ok',
     }
